@@ -16,10 +16,11 @@ def print_result(word_count, number_of_options, sorted_dict):
             for element_from_priority_value in sorted_list_elements:
                 for input_size in range(len(full_list[index_element])):
                     if full_list[index_element][input_size] == element_from_priority_value[input_size]:
-                        if element_from_priority_value in list_result:
-                            pass
-                        else:
-                            list_result.append(element_from_priority_value)    
+                        if len(list_result)<10:
+                            if element_from_priority_value in list_result:
+                                pass
+                            else:
+                                list_result.append(element_from_priority_value)    
                     else:
                         if full_list[index_element][input_size]=='\n':
                             break
