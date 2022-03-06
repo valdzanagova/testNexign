@@ -1,8 +1,6 @@
-7
+5
 kare 10
 kanojo 20
-kaaka 20
-karamba 30
 karetachi 1
 korosu 7
 sakura 3
